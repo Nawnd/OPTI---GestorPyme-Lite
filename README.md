@@ -508,6 +508,19 @@ infrastructure.database
   ↓
 SQLite
 ```
+---
+
+## Documentación técnica
+
+La documentación complementaria del proyecto se encuentra en la carpeta `/docs`.
+
+| Documento | Descripción |
+|---|---|
+| [Guía de uso](docs/GUIA_USO.md) | Flujo paso a paso para ejecutar y probar los módulos principales del sistema. |
+| [Decisiones técnicas](docs/DECISIONES_TECNICAS.md) | Explicación de las principales decisiones de arquitectura, base de datos, inventario, FEFO, OT y exportaciones. |
+| [Diagrama de arquitectura](docs/diagrams/architecture.md) | Diagramas Mermaid de arquitectura por capas, flujo MVC, inventario, ventas, compras y taller. |
+| [Modelo entidad-relación resumido](docs/diagrams/er-model.md) | Relaciones principales entre clientes, ventas, inventario, compras, lotes, vehículos y órdenes de trabajo. |
+| [Capturas de pantalla](docs/screenshots/) | Imágenes reales de módulos principales como dashboard, inventario, órdenes de trabajo y configuración. |
 
 ### Descripción de capas
 
