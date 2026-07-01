@@ -32,10 +32,8 @@ El proyecto nace como una solución académica/profesional con enfoque en empres
 - [Roadmap](#roadmap)
 - [Aprendizajes técnicos](#aprendizajes-técnicos)
 - [Valor profesional del proyecto](#valor-profesional-del-proyecto)
-- [Consideraciones de publicación en GitHub](#consideraciones-de-publicación-en-github)
 - [Autor](#autor)
 - [Licencia / nota académica](#licencia--nota-académica)
-- [Mejoras recomendadas para GitHub](#mejoras-recomendadas-para-github)
 
 ---
 
@@ -637,10 +635,6 @@ gestorpyme-lite/
     └── gestorpyme.db
 ```
 
-> Nota: la carpeta `data/` contiene la base SQLite local. Para publicar en GitHub se recomienda excluir el archivo real `data/gestorpyme.db`.
-
----
-
 ## Base de datos
 
 El sistema usa **SQLite** como motor de persistencia local.
@@ -689,8 +683,6 @@ Entre las tablas principales del sistema se encuentran:
 ---
 
 ## Capturas de pantalla
-
-
 
 ### Dashboard principal
 
@@ -917,36 +909,6 @@ Este proyecto permite demostrar y practicar habilidades en:
 
 ---
 
-## Consideraciones de publicación en GitHub
-
-Antes de publicar el repositorio, se recomienda excluir:
-
-```text
-target/
-data/gestorpyme.db
-*.db
-*.sqlite
-*.log
-```
-
-También se recomienda incluir un archivo `.gitignore`.
-
-Ejemplo básico:
-
-```gitignore
-target/
-data/*.db
-data/*.sqlite
-*.log
-.idea/
-.vscode/
-.DS_Store
-```
-
-> Si se desea conservar la carpeta `data/`, se puede incluir un archivo placeholder como `data/.gitkeep`.
-
----
-
 ## Autor
 
 **Jean Sebastián González Mera**
@@ -972,25 +934,3 @@ Opciones recomendadas:
 - MIT License.
 - Apache License 2.0.
 - Licencia académica personalizada.
-
----
-
-## Mejoras recomendadas para GitHub
-
-Para mejorar la presentación del repositorio se recomienda:
-
-- Agregar capturas de pantalla reales en `docs/screenshots/`.
-- Agregar diagrama de arquitectura en `docs/diagrams/architecture.png`.
-- Agregar diagrama entidad-relación en `docs/diagrams/er-model.png`.
-- Agregar archivo `.gitignore`.
-- Agregar licencia.
-- Agregar carpeta `/docs`.
-- Agregar ejemplos de uso.
-- Agregar datos de prueba no sensibles.
-- Agregar GIF corto de navegación.
-- Agregar guía de instalación paso a paso.
-- Agregar diagrama del flujo `Cliente -> Vehículo -> OT -> Venta -> Inventario -> Pago/Cartera`.
-- Agregar sección de preguntas frecuentes.
-- Agregar sección de decisiones técnicas.
-- Agregar sección de pruebas automatizadas.
-- Agregar enlace a documentación académica del proyecto.
