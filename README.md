@@ -723,11 +723,10 @@ Entre las tablas principales del sistema se encuentran:
 ### Clonar el repositorio
 
 ```bash
-git clone https://github.com/usuario/gestorpyme-lite.git
-cd gestorpyme-lite
+git clone https://github.com/Nawnd/OPTI---GestorPyme-Lite.git
+cd OPTI---GestorPyme-Lite
 ```
 
-> Reemplazar la URL anterior por la URL real del repositorio.
 
 ### Compilar el proyecto
 
