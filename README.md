@@ -690,7 +690,7 @@ Entre las tablas principales del sistema se encuentran:
 
 ## Capturas de pantalla
 
-> Pendiente agregar capturas reales del sistema.
+
 
 ### Dashboard principal
 
