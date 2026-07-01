@@ -22,3 +22,51 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+# Maven / build
+target/
+
+# Base de datos local SQLite
+data/*.db
+data/*.sqlite
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# IDE / sistema
+.idea/
+.vscode/
+.DS_Store
+
+# Backups locales temporales
+README_local_backup.md
+gitignore_local_backup.txt
+
+# Maven / compilación
+target/
+
+# Base de datos local SQLite
+data/*.db
+data/*.sqlite
+data/gestorpyme.db
+database/*.db
+database/*.sqlite
+*.db
+*.sqlite
+
+# Exportaciones generadas por la app
+exports/
+
+# Logs generados por la app
+logs/
+*.log
+
+# IDE / sistema
+.idea/
+.vscode/
+.DS_Store
+
+# Backups temporales locales
+README_local_backup.md
+gitignore_local_backup.txt
